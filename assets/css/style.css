@@ -558,9 +558,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   .footer .list-unstyled a {
     font-size: 1rem;
   }
-  .footer .list-unstyled {
-    /* flex: wrap; */
-  }
   .challenge, .project {
     width: 100%;
   }
