@@ -142,6 +142,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   margin-top: 0px;
   opacity: 1;
   visibility: visible;
+  padding: 0 16px;
 }
 
 .testimonial-wrap {
@@ -266,7 +267,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .about-text {
-
+  width: 80%;
 }
 .about-text a {
   color: #000;
@@ -375,12 +376,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   padding-top: 40px;
   width: 100%;
 }
-@media (max-width: 780px) {
-  .custom-navbar > .container {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
 .custom-navbar .navbar-brand {
   font-size: 2.7rem;
 }
@@ -450,6 +445,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .burger:focus {
   outline: none;
 }
+.challenge, .project {
+  width: 75%;
+}
 
 /*--------------------------------------------------------------
 # Footer
@@ -466,6 +464,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-size: 4.375rem;
   color: #fff;
   opacity: 0.8;
+}
+.footer .list-line li:before {
+  background: none;
 }
 .footer .footer-logo:hover {
   opacity: 1;
@@ -525,4 +526,46 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   .top-menu {
     display: none;
   }
+  .about-text {
+    width: 100%;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .item .item-wrap, .project-assets {
+    height: 350px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .custom-navbar {
+    padding-top: 20px;
+  }
+  .section {
+    padding: 3rem 0;
+  }
+  .item .item-wrap > .work-info {
+    display: none;
+  }
+
+  .item .item-wrap, .project-assets {
+    height: auto;
+  }
+  .footer {
+    padding: 8% 2%;
+  }
+  .footer .list-unstyled a {
+    font-size: 1rem;
+  }
+  .footer .list-unstyled {
+    /* flex: wrap; */
+  }
+  .challenge, .project {
+    width: 100%;
+  }
+  .challenge {
+    margin-bottom: 3rem;
+  }
+  
 }
