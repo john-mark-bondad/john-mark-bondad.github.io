@@ -369,9 +369,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 /* Custom Navbar */
 .custom-navbar {
-  padding-top: 40px;
+  padding: 30px 0 20px;
   width: 100%;
   z-index: 9999!important;
+  background: #f5f1ed;
 }
 .custom-navbar .navbar-brand {
   font-size: 2.7rem;
@@ -451,10 +452,21 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 --------------------------------------------------------------*/
 
 .hero {
-  margin-bottom: 5.5rem;
+  margin: 0 0 100px 0;
+  height: 100vh;
+  overflow: hidden;
+  background: #f5f1ed;
 }
 .hero .container {
   height: 100vh;
+}
+.hero .floating-img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+  transition: transform 0.3s ease;
+  background-size: contain;
 }
 .hero .content-wrap {
   top: 40%;
@@ -508,7 +520,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 --------------------------------------------------------------*/
 .footer {
   padding: 0 0 4rem 0;
-  background-color: #1c1d25;
+  background-color: #f5f1ed;
   padding: 8% 0;
 }
 .footer a {
@@ -516,7 +528,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 .footer .footer-logo {
   font-size: 4.375rem;
-  color: #fff;
+  color: #000;
   opacity: 0.8;
 }
 .footer .list-line li:before {
@@ -527,20 +539,20 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 .footer .list-unstyled a {
   font-size: 1.2rem;
-  color: #fff;
+  color: #000;
 }
 .footer .list-unstyled li:nth-child(1) {
   padding-left: 0;
 }
 .footer .copy p, .footer .copy a {
   font-size: 1rem;
-  color: #fff;
+  color: #000;
   opacity: 0.8;
 }
 .footer a:hover {
   opacity: 1;
   text-decoration: underline;
-  text-decoration-color: #fff;
+  text-decoration-color: #000;
 }
 .social a {
   display: inline-block;
