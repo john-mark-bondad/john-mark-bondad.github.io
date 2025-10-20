@@ -473,7 +473,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   color: #fff;
   padding: 12px 24px;
   font-weight: 600;
-  width: 124px;
+  width: fit-content;
 }
 .hero .content {
   padding-left: 90px;
@@ -654,5 +654,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
     font-size: 1.999396rem;
     line-height: 1.1253398526;
   }
+  .hero .btn-about-me {
+    border: 1px solid #000;
+    color: #fff;
+    padding: 10px 18px;
+}
   
 }
