@@ -668,5 +668,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   }
   .hero .works-arrow {
     left: 45%;
+    bottom: 5% !important;
   }
 }
