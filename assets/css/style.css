@@ -474,6 +474,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   padding: 12px 24px;
   font-weight: 600;
   width: fit-content;
+  text-wrap: nowrap;
+}
+.hero .works-arrow {
+  left: 48.5%;
 }
 .hero .content {
   padding-left: 90px;
@@ -615,6 +619,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   .hero .social-stripe ul {
     gap: 0.8rem;
   }
+  .hero .works-arrow {
+    left: 46.5%;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -658,6 +665,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
     border: 1px solid #000;
     color: #fff;
     padding: 10px 18px;
-}
-  
+  }
+  .hero .works-arrow {
+    left: 45%;
+  }
 }
